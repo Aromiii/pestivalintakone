@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.age-form {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.job-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.search {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.search-options {
+    max-height: 200px;
+    overflow: auto;
+    gap: 1px;
+}
+
+.search-option {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.search-option:hover {
+    background: #f0f0f0;
+}
+
+.selected {
+    background: #d0e7ff;
+    border-color: #3399ff;
+}
+
+.submit-button {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 20px;
+}
