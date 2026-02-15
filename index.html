@@ -3,36 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <title>Pestinvalintakone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost&family=Nunito:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Tervetuloa pestinvalintakoneeseeen</h1>
-        <form class="age-form">
-            <label>
-                Samoaja
-                <input name="agegroup" type="radio" value="samoaja">
-            </label>
-            <label>
-                Vaeltaja
-                <input name="agegroup" type="radio" value="vaeltaja">
-            </label>
-            <label>
-                Aikuinen
-                <input name="agegroup" type="radio" value="aikuinen">
-            </label>
-        </form>
-        <form id="job-form" class="job-form" hidden="hidden">
-            <label for="firstName">Etunimi</label>
-            <input id="firstName" placeholder="Etunimi..." required>
-            <label for="lastName">Sukunimi</label>
-            <input id="lastName" placeholder="Sukunimi..." required>
-            <label for="searchBox">Pestitoive 1.</label>
-            <input id="searchBox" class="search" placeholder="Hae vaihtoehtoja..." />
-            <div id="options" class="search-options"></div>
-            <button id="submit-button" type="submit" class="submit-button">Lähetä pestivalinnat</button>
-        </form>
-        <script src="https://www.gstatic.com/firebasejs/12.9.0/firebase-app-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/12.9.0/firebase-firestore-compat.js"></script>
-        <script src="index.js"></script>
+        <div class="content">
+            <h1>Tervetuloa pestinvalintakoneeseeen</h1>
+            <p></p>
+            <h2>Valitse ikäkautesi</h2>
+            <form class="age-form">
+                <label>
+                    Samoaja
+                    <input name="agegroup" type="radio" value="samoaja">
+                </label>
+                <label>
+                    Vaeltaja
+                    <input name="agegroup" type="radio" value="vaeltaja">
+                </label>
+                <label>
+                    Aikuinen
+                    <input name="agegroup" type="radio" value="aikuinen">
+                </label>
+            </form>
+            <form id="job-form" class="job-form" hidden="hidden">
+                <h2>Etunimi</h2>
+                <input id="firstName" placeholder="Etunimi..." required>
+                <h2>Sukunimi</h2>
+                <input id="lastName" placeholder="Sukunimi..." required>
+                <h2>Pestitoive 1.</h2>
+                <input id="searchBox" class="search" placeholder="Hae vaihtoehtoja..." />
+                <div id="options" class="search-options"></div>
+                <button id="submit-button" type="submit" class="submit-button">Lähetä pestivalinnat</button>
+            </form>
+            <script src="https://www.gstatic.com/firebasejs/12.9.0/firebase-app-compat.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/12.9.0/firebase-firestore-compat.js"></script>
+            <script src="index.js"></script>
+        </div>
     </body>
 </html>

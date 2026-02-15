@@ -1,9 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 40px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('http://ilves26.fi/wp-content/uploads/2025/11/ilves26-hero-blank-3000px.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0px;
 }
 
 input {
@@ -17,6 +25,32 @@ input {
 
 label {
     font-size: 20px;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0px 0px 5px;
+}
+
+h2 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    margin: 0px 0px 5px;
+}
+
+.content {
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 
 .age-form {
@@ -67,8 +101,16 @@ label {
 }
 
 .submit-button {
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    padding: 8px;
+    background-color: #ce5738;
+    border-radius: 30px;
+    border: 1px solid #ce5738;
+    padding: 15px;
     font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.submit-button:hover {
+    background-color: #80884f;
+    border: 1px solid #80884f;
 }
