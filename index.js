@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         jobs = await response.json();
     } catch (err) {
         console.error("Error loading JSON:", err);
+        alert("Ongelma pestien latauksessa. Uudelleenlataa sivusto. Jos ongelma ei ratkea, ota yhteyttä aaro.heroja@partio.fi")
     }
 
     const loadJobs = (group) => {
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         jobs[group].forEach(job => {
             const div = document.createElement("div");
             div.classList.add("search-option");
-            div.textContent = job.title;
+            div.innerHTML = `<strong>${job.title}</strong><br/><br/>${job.description}`;
             optionsContainer.appendChild(div);
 
             div.addEventListener("click", () => {

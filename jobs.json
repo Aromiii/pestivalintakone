@@ -1,39 +1,201 @@
 {
   "samoaja": [
     {
-      "title": "Samoaja Muonitus",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Arki ohjelman tekijä",
+      "description": "Ohjelmalaaksojen tekijänä osallistut laaksojen ohjelman toteuttamiseen. Voit päästä esimerkiksi ohjamaan metsäsählyä tai auttamaan rakentelussa kädentaitolaaksossa. Pääasiassa tehtäväsi on auttaa rasteilla, antaa ohjeita ja vastata kysymyksiin. Ohjelmalaaksojen tekijät osallistuvat tarpojien haikin toteuttamiseen ja samoajan tehtäviin kuuluu toimia tarpojavartion saattajana haikilla.🌿👟"
     },
     {
-      "title": "Turva",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Ilostuttaja (oheisohjelman tekijä)",
+      "description": "Oheisohjelmassa vastaamme siitä, että leirin tapahtumatorilla tarjotaan tekemistä laaksojen ja yhteisten ohjelmien aukioloaikojen ulkopuolella. Tavoitteemme on, että kenenkään leirille osallistujan ei tarvitsisi olla yksinäinen vapaa-aikana. Oheisohjelmaa toteutetaan kivasti yhdessä hengaillen, pelaillen ja jutustelen leiritorin laidalla omassa ohjelmateltassa.😍"
     },
     {
-      "title": "Lääkintä",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Näyttelijä ",
+      "description": "Yhteisohjelmien näyttelijät vastaavat leiri ohjelman viihdyttävyydestä. Kokemusta näyttelemisestä ei tarvitse olla, mutta reipas ja heittäytyvä asenne katsotaan hyväksi! Pestissä toimit yhdessä muiden näyttelijöiden, sekä maskeeraustiimin kanssa. 🕺🎭"
     },
     {
-      "title": "Alaleirit",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Yhteisohjelman tekijä ",
+      "description": "Yhteisohjelman tekijänä pääset tutustumaan backstage meininkiin eli avustamaan näyttelijöitä maskeerauksessa, puvustuksessa, sekä rekvisiitoissa. 😎💃"
     },
     {
-      "title": "Ohjelmalaaksot",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Vaikuttajapäivän tekijä",
+      "description": "Tule mukaan vaikuttamaan! Vaikuttajaohjelmassa annetaan nuorille vaikuttamisen mahdollisuuksia ja pääset tekemään siitä mahdollista. Tehtäviin kuuluu tarpojien ja samoajien ohjeistamista ja opastamista, uusien ihmisten kanssa keskustelua ja käytännön hommien hoitamista. Pesti huipentuu vaikuttajapäivän lavaohjelmaan. Pestiä tehdään muutamana päivänä pidempi aika kerrallaan."
     },
     {
-      "title": "Yhteisohjelmat",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Kiitoskimalainen ",
+      "description": "Kiitoskimalainen käy kiittämässä muita partiolaisia ja pitämässä huolen, että jokainen tulee huomioiduksi leirillä. 🐝"
     },
     {
-      "title": "Viestintä ja markkinointi",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Turvan tekijä",
+      "description": "Turvan tekijänä pääset toimimaan järjestyksenvalvojien apukäsinä, mutta ilman järjestyksenvalvojan lain suomia oikeuksia. Olemme ystävällinen ja osaava joukko partiolaisia, jotka ovat hymyssä suin valmiita auttamaan kanssapartiolaisia pienemmistä haavereista aina vakavampiinkin sattumuksiin. Olemme läsnä siellä missä muutkin – valmiina auttamaan, neuvomaan ja opastamaan. <br/><br/> Turvan tekijänä pääset tutustumaan järjestyksenvalvojien toimintaan ja toimimaan koko tapahtuma-alueella. Tehtävänäsi on kiertää tapahtuma-alueella yhdessä järjestyksenvalvojan kanssa suorittaen teille määrättyjä tehtäviä. 😎"
     },
     {
-      "title": "Leiritoimisto",
-      "description": "Kjköjsgjk jklsdjklsdjk sdjkljklösjklösd"
+      "title": "Vastuullisuusohjelman pesti",
+      "description": "Vastuullisuusohjelman tekijänä pääset toteuttamaan monipuolista ohjelmaa. Pestissä samoajan tehtävänä on olla mukana pitämässä ständiä, käytännössä se tarkoittaa ihmisten ohjeistamista ja ohjeiden lukemista tai vastuullisenkumppanin kanssa jonkin vastuullisuus teemaisen ohjelman tai “kurssin” pitämistä esim. 1-2 kertaa päivän aikana. Tämä voisi olla esimerkiksi varustehuolto tai kasvisruoka teemaisen kurssin vetäminen kaikille kiinnostuneille. <br/><br/>Lähtökohtaisesti pestissä toimitaan muiden kanssa, mutta tilanteen tullessa toimitaan myös itsenäisesti.🍀 "
+    },
+    {
+      "title": "Johtajakahvilan tekijä",
+      "description": "Johtajakahvila Mokkala etsii nyt reippaita ja oma-aloitteisia samoajia osaksi kahvilantekijätiimiä! Asiakaspalvelu ja iloisen & rennon hengähdyshetken toteuttaminen kiireisen leiriarjen keskelle kiehtoo sinua? Aiempi kokemus kahvilatyöstä on plussaa, mutta ei välttämätöntä. Kahvilassa työskennellään vuoroissa ja tehtävät sisältävät mm. myytävien tuotteiden valmistelua, paikkojen siistinä pitämistä, kassatyöskentelyä ja myös annosten valmistusta & tarjoilua. ☕ "
+    },
+    {
+      "title": "Johtajahuollon tekijä ",
+      "description": "Pestissä toimitaan yhdessä parin kanssa ja pääsette yhdessä toteuttamaan pieniä ohjattuja tehtäviä johtajahuollon ohjelmissa esim. Jonkun pelin pitäminen, ohjelman valmistelut, ohjelmaan ohjaus. Näihin saadaan valmis ohjeistus. <br/><br/>Johtajahuollon tekijän tehtäviin kuuluu myös johtajasaunan- ja vesipatojen lämmitys. Tämä tarkentuu kevään aikana, kun saadaan tieto tuleeko johtajasaunaa."
+    },
+    {
+      "title": "Jäätelömyyjä",
+      "description": "Pääset leirillä palvelemaan jäätelönhimoisia leiriläisiä tekemällä kauniita Softis pehmytjäätelöitä. Pestissä kaivataan iloista ja reipasta asiakaspalvelijaa, sopisiko pesti sinulle? 🍦"
+    },
+    {
+      "title": "Leirimyymälän tekijä",
+      "description": "Pestiin kuuluu asiakaspalvelu leirimyymälässä, kassa työskentely, myymälän täydentäminen sekä myynnin varastolla työskentely. Kaipaatko vaihtelevia työtehtäviä? Tässä juuri oikea pesti sinulle. "
+    },
+    {
+      "title": "Kahvilan tekijä ",
+      "description": "Täytetään kahvilan vitriinejä ja avustetaan myynnissä sekä palvellaan asiakkaita. Siistitään kahvilan pöytiä sekä ympäristöä. Tarvittaessa haetaan varastosta lisää tavaraa. Iloinen ja reipas asenne asiakaspalvelu tilanteissa? Kahvilan tekijä olisi siis sopiva juuri sinulle. ☕ "
+    },
+    {
+      "title": "Muonitus",
+      "description": "Oletko hyvä tyyppi, jolla on huumorintajua ja tykkäät tehdä porukassa hommia? Muonituksen tekijänä soveltuu reipas tyyppi, jolla on motivaatiota ja halua käydä kokeilemassa yhtä leirin tärkeimmistä pesteistä. Keittiössä tehtävää on monenlaista eikä se vaadi erityistä ruoanlaitto-osaamista. Sinulle kympit, mestarit ja vakituiset tekijät ohjeistavat mitä tehdään ja pääset myös vaikuttamaan itse siihen mitä haluat keittiöllä tehdä. Pestisi keittiöllä on tärkeä ja oletkin leirin onnistumisen takaavia avainhenkilöitä. <br/><br/>Pesti keittiöllä on usein fyysistä työtä. Sinun on hyvä huomioida oma fyysinen terveydentilasi, jotta pesti ei koidu sinulle liian raskaaksi. Toisaalta keittiössä tehtävää on monenlaista, joten myös omienrajojesi mukaista tehtävää löytyy, mainitse vaikka tarpeistasi erikseen hakukirjeessä. Hygieniapassia ei tarvita, jos sellaisen omistat, se on vain hyvää plussaa. Toivomme ennen kaikkea, että olet huumorintajuinen ja hyvin iloiseen keittiöjengiinsopiva tiimipelaaja.😋 "
+    },
+    {
+      "title": "Leiri-infran ylläpitäjä ",
+      "description": "Pääset mukaan korjaamaan mahdollisia vikatilanteita sekä saat mahdollisuuden tutustua leiri-infran ylläpitoon sekä huoltoon. Pääset tutustumaan Evon varastoon ja sen ylläpitoon. 🤘🔨 "
+    },
+    {
+      "title": "Logistiikan apukäsi ",
+      "description": "Logistiikan apukäsi avustaa logistiikan kuljettajia kuormien lastaus- ja purkutehtävissä, sekä toimii ylimääräisinä silminä suurissa väkimassoissa liikuttaessa ajoneuvolla. 🚛 "
+    },
+    {
+      "title": "Huollon tekijä ",
+      "description": "Pestissä samoaja osallistuu leirin huollon päivittäisiin toimivan leiriarjen kannalta kriittisiin tehtäviin, kuten jätehuoltoon ja pesuihin. Tehtävissä toimitaan tiiminä, joten yksin et jää! 🔨🔧 "
+    },
+    {
+      "title": "Moninaisuusmyyrä",
+      "description": "Moninaisuus on tekemässä hiljentymistelttaa, jossa on mahdollista rauhoittua tarvittaessa leirihälystä, paikalla on myös käytettävissä pienapuvälineitä kuten stressileluja ja kuulosuojaimia. Lisäksi moninaisuudella on pienimuotoista apuvälinelainausta. Moninaisuusmyyrät avustavat hiljentymisteltalla sekä välineiden lainauksessa ja huollossa. Moninaisuusmyyrä voi olla myös yksittäisen partiolaisen tai aikuisen apuna pienryhmän leirikamuna sovittuna ajankohtana. <br/><br/>Ennen leiriä moninaisuusmyyrille järjestetään virallinen partiokamukoulutus ja mahdollisesti pääsy uuden moninaisuusmerkin pilottiryhmään. Partiokamukoulutus on suositus pestiin ja sen voi myös käydä itsenäisesti haluamallaan tavalla. 🤗 "
+    },
+    {
+      "title": "Leiritoimistosamoaja",
+      "description": "Pestiin sisältyy monipuolista hommaa leiritoimistossa yhdessä leiritoimiston tekijöiden kanssa. Pääosin tehtävät ovat: avustaa leiritoimiston arjen tehtävissä kuten esimerkiksi, palvelee leiriläisiä, tekijöitä ja vieraita yhdessä muiden tekijöiden kanssa, auttaa vastaamaan kysymyksiin ja ohjaamaan oikean avun äärelle, sekä tutustuu leiritoimiston toimintaan ja käytäntöihin. Tärkeisiin tehtäviin kuuluu myös auttaminen palautteen keräämisessä leiriläisiltä ja tekijöiltä, ohjata palautekanavien käyttöön ja on mukana varmistamassa, että kaikkien ääni tulee kuulluksi. <br/><br/>Vierailupäivänä samoaja avustaa vierailupäivän käytännön järjestelyissä, ohjaa ja neuvoo vierailijoita leirialueella ja on mukana luomassa sujuvaa ja mukavaa vierailupäiväkokemusta. 😍 "
     }
   ],
   "vaeltaja": [
+    {
+      "title": "Haikin tekijä",
+      "description": "Haikin tekijänä osallistut tarpojien päivähaikin sekä samoajien ja vaeltajien haikin toteuttamiseen. Tarpojien päivähaikilla työskentelet rastihenkilönä, joillakin haikin rasteista eli tehtäväpisteistä. Samoajille ja vaeltajille järjestettävä haikki kestää yön yli, ja silloin osa pestattavista työskentelee myös yörastilla. Rastihenkilönä haikilla vastaat rastin sujuvasta toiminnasta ja osaltaan myös haikin turvallisesta etenemisestä. "
+    },
+    {
+      "title": "Laakson tekijä",
+      "description": "Ohjelmalaaksotekijänä pääset mahdollistamaan leirin arkiohjelman toteutumisen. Laaksoissa pääset ohjaamaan leiriläisiä erilaisilla tehtäväpisteillä, joiden teemat vaihtelevat laaksojen mukaan. Sinulta ei vaadita suunnittelutyötä ennen leiriä, vaan leirillä sinut perehdytetään laakson ohjelmaan."
+    },
+    {
+      "title": "Uinnin tekijä",
+      "description": "Uimavalvojina vastaamme uinnin turvallisuudesta yhdessä leirilippukunnista tulevien aikuisten kanssa. Neuvomme, opastamme ja varmistamme, että uimareilla on sekä hauskaa että turvallista. Valvomme rantaa päivittäin - vierailupäivää lukuun ottamatta. Mikäli sinulla ei ole valmiiksi uimavalvojan koulutusta (tai vastaavaa), tarjoamme sinulle verkkokoulutuksen ilmaiseksi. "
+    },
+    {
+      "title": "Oheisohjelman tekijä",
+      "description": "Oheisohjelman tekijä vastaa siitä, että ilostuttajaksi tulevat samoajat saavat toimia turvallisesti tehtävässään leirisuoran oheisohjelmassa. Oheisohjelmaa toteutetaan kivasti yhdessä hengaillen, pelaillen ja jutustelen leiritorin laidalla omassa ohjelmateltassa. Pestissä toimit mukavassa oheisohjelman tiimissä mestarin alaisuudessa ja ohjelman kokonaisuudessa."
+    },
+    {
+      "title": "Johtajahuollon tekijä",
+      "description": "Johtajahuollon tavoitteena on tarjota samoajaikäkaudesta vanhemmille osallistujille tapahtumia sekä tekemistä, jotka tukevat hänen pestissä jaksamistaan, tarjoavat elämyksiä sekä rauhoittumisen mahdollisuuden leiriarjessa. Lisäksi johtajaohjelmaa tarjotaan leirin lopussa kaikille johtajille, pienempien partiolaisten poistuttua. Johtajahuolto sisältäisi ainakin visailua ja kisailua, musiikkia ja muita elämyksiä. "
+    },
+    {
+      "title": "Bändin jäsen yhteisohjelmiin",
+      "description": "Yhteisohjelmien bändi koostuu bändin johtajasta, soittajista ja laulajista. Pesti bändissä edellyttää jonkun instrumentin osaamista ja kykyä toimia ja soittaa/laulaa osana ryhmää. Pesti ei edellytä aiempaa bändikokemusta, mutta aikaisempi esiintymiskokemus on pestissä hyödyksi. "
+    },
+    {
+      "title": "Yhteisohjelmien tekijä",
+      "description": "Tehtäviin kuuluu esimerkiksi rakennus- ja purkuleirien juhlien sekä vierailupäivän ohjelman toteutus, lavastus ja rekvisiittatehtävät, odotusohjelmien sekä juontojen sisällöllinen suunnittelu ja toteutus, sekä muut avustavat tehtävät yhteisohjelmissa. "
+    },
+    {
+      "title": "Yhteisohjelmien näyttelijä",
+      "description": "Yhteisohjelmien lavashow koostuu bändistä, näyttelijöistä ja tanssijoista. Näyttelijän pesti edellyttää aikaisempaa kokemusta näyttelemisestä (harrastetaso, pesti ei edellytä koulutusta) ja heittäytymis- ja esiintymiskykyä. Pestissä vaaditaan kykyä toimia osana ryhmää."
+    },
+    {
+      "title": "Yhteisohjelman tekniikan tekijä",
+      "description": "    Tekniikan tekijät rakentavat, ohjaavat/käyttävät ja purkavat yhteisohjelmien tekniikan (lavatekniikka, valo/ääni sekä screen) tekniikkamestarin johdolla ennen leiriä, leirin aikana ja leirin jälkeen. Pesti ei vaadi ammattiosaamista lavatekniikasta, mutta jonkin tasoinen osaaminen ja kiinnostus tapahtumatekniikkaa kohtaan on eduksi. "
+    },
+    {
+      "title": "Hius ja maskeeraustiimi",
+      "description": "Tehtäviin kuuluu näyttelijöiden kampausten sekä maskeerauksen suunnittelu ja toteutus hahmokuvauksen ja käsikirjoituksen pohjalta. Hius- ja maskitiimin tekijät osallistuvat mahdollisten hius- ja maskeeraustarvikkeiden hankintaan ennen leiriä. Pesti ei vaadi ammattiosaamista, mutta vapaa-ajalla meikkaaminen ja hiusten laittaminen sekä luovuus on hyödyksi. "
+    },
+    {
+      "title": "Yhteisohjelmien puvustaja  ",
+      "description": "Tehtäviin kuuluu näyttelijöiden puvustuksen suunnittelu ja toteutus. Pestissä puvustaja suunnittelee hahmokuvauksen ja käsikirjoituksen pohjalta näyttelijöiden asut. Puvustajat myös osallistuvat roolivaatteiden hankintaan ennen leiriä. Pesti ei vaadi aiempaa kokemusta puvustuksesta. "
+    },
+    {
+      "title": "Leiritoimistotekijä",
+      "description": "Leiritoimiston tekijä on osa Ilves26-leirin pulssia. Leiritoimisto on auki leirin jokaisena päivänä ja toimii keskeisenä asiakaspalvelupisteenä leiriläisille, tekijöille ja vieraille. Pestissä pääset huolehtimaan siitä, että arjen kysymykset ratkeavat ja toimisto pyörii sujuvasti. Pesti vie aikaasi pääasiallisesti vain leirin aikana, muutamaa perehdytys iltaa/-päivää lukuun ottamatta. "
+    },
+    {
+      "title": "Moninaisuusmäyrä",
+      "description": "Moninaisuusmäyrät ovat mukana tarkistamassa pyynnöstä leirillä eri kohteiden esteettömyyttä ja saavutettavuutta ja antamassa ehdotuksia näiden parantamiseksi. Moninaisuusmäyrät avustavat hiljentymisteltalla sekä välineiden lainauksessa ja huollossa. Moninaisuusmäyrä voi olla myös yksittäisen partiolaisen tai aikuisen apuna pienryhmän leirikamuna sovittuna ajankohtana tai sijaistaa partiolaisen avustajaa hetkellisesti mahdollisuuksien mukaan."
+    },
+    {
+      "title": "Johtajakahvilan tekijä",
+      "description": "Kahvilassa työskennellään vuoroissa ja tehtävät sisältävät mm. myytävien tuotteiden valmistelua, paikkojen siistinä pitämistä, kassatyöskentelyä ja myös annosten valmistusta ja tarjoilua. Jokaisessa vuorossa on myös samoajia, joiden ohjaaminen kuuluu osana kaikille tekijöille. Ennen leiriä järjestetään vähintään 1 ennakkotapaaminen, jossa perehdytetään pestiin ja viilataan loput suunnitelmat kuntoon. Raksalle ja purulle olisi hyvä valmistautua osallistumaan."
+    },
+    {
+      "title": "Jäätelömyyjä",
+      "description": "Palvellaan jäätelönhimoisia leiriläisiä tekemällä kauniita Softis pehmytjäätelöitä. Lisäksi tehtäviin kuuluu kioskin siistimistä, koneiden täyttämistä ja muiden juoksevien asioiden hoitamista sekä samoajien opastamista."
+    },
+    {
+      "title": "Leirimyymälän tekijä",
+      "description": "Pestiin kuuluu samoajien opastus ja ohjeistus työvuorojen aikana, kassatyöskentely, varastossa työskentely, myymälän täydennys sekä asiakaspalvelu. Tiimi osallistuu piirileirien yhteiselle raksalle 3.-5.7.2026 Evolla."
+    },
+    {
+      "title": "Kahvilan tekijä",
+      "description": "Myynti- ja asiakaspalvelutyötä kassalla. Helppoa ruoanvalmistusta (perehdytetään tehtäviin). Vitriinien täyttöä ja kahvilaan siistimistä. Tarvittaessa hygieniapassi-koulutus järjestetään tekijöille. Osallistuminen raksalle tai purulle yhdeksi päiväksi olisi suotavaa."
+    },
+    {
+      "title": "Leiripaloesimies",
+      "description": "Leiripaloesimiehen tehtävänä on osallistua välittömän toimintavalmiuden ylläpitämiseen sekä vastata pelastusyksikön toiminnasta. Leiripaloesimies toimii leirillä oman vuoronsa esimiehenä toimien lähiesimiehenä 4–6 leiripalomiehelle. Ennen leiriä osallistut myös leirin pelastusorganisaation toiminnan suunnitteluun yhdessä leiripelastusmestarin kanssa. "
+    },
+    {
+      "title": "Leiripalomies",
+      "description": "Leiripalomiehen tehtävänä on osallistua välittömän toimintavalmiuden ylläpitämiseen leirin aikana sekä toimia pelastusyksikön jäsenenä mahdollisissa onnettomuustilanteissa. Pelastusyksikkö saatetaan leirin aikana hajottaa leirialueelle pienemmiksi yksiköiksi, jolloin sinulla tulee olla valmiudet tarvittaessa aloittaa pelastustoiminta ennen yksikön täydentymistä kohteessa."
+    },
+    {
+      "title": "Ensihoitaja",
+      "description": "Leiriambulanssi päivystää leirialueella ja on valmiina auttamaan siellä missä apua tarvitaan. Ensihoito tekee tiivistä yhteistyötä leiriterveyskeskuksen kanssa."
+    },
+    {
+      "title": "Järjestyksenvalvoja",
+      "description": "Järjestyksenvalvojana olet mahdollistamassa turvallisen leirin toteutumisen ja olet näkyvin osa leirin turvallisuutta. Järjestyksenvalvonta on siellä, missä leiriläisetkin - valmiina auttamaan, neuvomaan ja opastamaan sekä tarvittaessa tarttumaan toimeen. Järjestyksenvalvonnan pestiin sisältyy runsaasti kävelyä ja kiertelyä leirialueella. Lisäksi järjestyksenvalvonta huolehtii kulunvalvonnasta leirialueelle."
+    },
+    {
+      "title": "Hoitajakymppi",
+      "description": "Hoitajakymppinä teet mm. leiriterveyskeskuksen vuorosuunnittelua, viestintää ja tarviketilauksia. Hyvässä tiimissä pääset kokemaan erilaisen leirielämyksen ja voita samalla olla mukana takaamassa lapsille ja nuorille turvallisempaa ja mukavampaa leirikokemusta! Sinulta odotamme järjestelykykyä ja valmiutta hoitaa tavanomaisia sairauksia ja vammoja kevyen leiriterveyskeskuksen varustuksella."
+    },
+    {
+      "title": "Leirisairaanhoitaja",
+      "description": "Hyvän tiimin ja toimivan leiriterveyskeskuksen hoitajana pääset kokemaan erilaisen leirielämyksen ja voit samalla olla mukana takaamassa lapsille ja nuorille turvallisempaa ja mukavampaa leirikokemusta! Leirisairaanhoitajilta odotamme valmiutta hoitaa tavanomaisia sairauksia ja vammoja kevyen leiriterveyskeskuksen varustuksella."
+    },
+    {
+      "title": "Muonituksen tekijä",
+      "description": "Oletko hyvä tyyppi, jolla on huumorintajua ja tykkäät tehdä porukassa hommia? Muonituksen tekijäksi soveltuu reipas tyyppi, jolla on motivaatiota ja halua tehdä leirin yhtä tärkeimmistä pesteistä. Keittiössä tehtävää on monenlaista eikä se vaadi erityistä ruoanlaitto-osaamista. Sinulle kympit, mestarit ja muonitusmentori ohjeistavat mitä tehdään ja pääset myös vaikuttamaan itse siihen mitä haluat keittiöllä tehdä. Pestisi keittiöllä on tärkeä ja oletkin leirin onnistumisen takaavia avainhenkilöitä."
+    },
+    {
+      "title": "Alaleirikeittiö kymppi",
+      "description": "Pestiin haetaan henkilöitä, jotka ovat kiinnostuneita siitä, miten saadaan ruokaa nenän alle ja leirin ruokahuolto pyörimässä. Pestiin ei ole varsinaisia ennakkovaatimuksia, vaan arvostamme enemmän hyvää asennetta ja oppimishalua. Pestiisi kuuluu hieman ennakkosuunnittelua sekä muiden ihmisten johtamista yhteistyössä päälliköiden sekä mestarien kanssa. Mikäli sinulla on ennestään hygieniapassi, on se hyödyksi, mutta sen puuttuminen ei ole este pestiin ryhtymiseen."
+    },
+    {
+      "title": "Erityisruokavaliokeittiön tekijä",
+      "description": ""
+    },
+    {
+      "title": "Vesikymppi",
+      "description": "Vesikymppinä pääset suunnittelemaan ja toteuttamaan leirin vesiputkituksia, pyörittämään leirin vesitoimintoja ja päivystämään yhdessä muiden alan ammattilaisten kanssa. Tehtävässä osallistut myös rakennusleirisuunnitteluun, materiaalitilauksiin ja viestintään. Hyvässä tiimissä pääset kokemaan erilaisen leirielämyksen ja voit samalla varmistaa, että leirin vesijärjestelmät toimivat turvallisesti ja sujuvasti!"
+    },
+    {
+      "title": "Huollon tekijä",
+      "description": "Pestissä toimitaan tekijänä huollon päivittäisissä tehtävissä. Pestiläiset toimivat pienissä ryhmissä johtaen samoajapestiläisiä. Tehtäviä ovat esimerkiksi jätehuollon järjestelyt, suihkutilojen pesut, WC-tilojen ylläpito ja polttopuiden kuljetukset. Kaikkien tekijöiden osalta ei ole tarve osallistua raksaleirille tai purkuleirille, mutta muutama tekijä on niilläkin tarpeen. B-ajokortti on tarpeen. "
+    },
+    {
+      "title": "Logistiikan kuljettaja",
+      "description": "Logistiikan kuljettaja huolehtii tavara- ja henkilölogistiikasta rakennusleirillä, varsinaisella leirillä sekä purkuleirillä. Pesti on vastuullinen ja vaatii huolellisuutta sekä tarkkuutta, kun liikutaan suurien väkimassojen keskellä ajoneuvoilla. "
+    }
+  ],
+  "aikuinen": [
     {
       "title": "Haikin tekijä",
       "description": "Haikin tekijänä osallistut tarpojien päivähaikin sekä samoajien ja vaeltajien haikin toteuttamiseen. Tarpojien päivähaikilla työskentelet rastihenkilönä, joillakin haikin rasteista eli tehtäväpisteistä. Samoajille ja vaeltajille järjestettävä haikki kestää yön yli, ja silloin osa pestattavista työskentelee myös yörastilla. Rastihenkilönä haikilla vastaat rastin sujuvasta toiminnasta ja osaltaan myös haikin turvallisesta etenemisestä. "

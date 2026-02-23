@@ -78,7 +78,7 @@ h2 {
 }
 
 .search-options {
-    max-height: 200px;
+    max-height: 300px;
     overflow: auto;
     gap: 1px;
 }
