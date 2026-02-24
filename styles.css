@@ -14,16 +14,17 @@ body {
     margin: 0px;
 }
 
-input {
+input, textarea {
     border-radius: 8px;
     border: 1px solid #ccc;
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
     font-size: 15px;
+    resize: vertical;
 }
 
-label {
+label, p {
     font-size: 20px;
 }
 
@@ -53,7 +54,7 @@ h2 {
     border: 1px solid white;
 }
 
-.age-form {
+.radio-button-form {
     max-width: 400px;
     width: 100%;
     margin-bottom: 30px;
@@ -78,7 +79,7 @@ h2 {
 }
 
 .search-options {
-    max-height: 300px;
+    max-height: 400px;
     overflow: auto;
     gap: 1px;
 }

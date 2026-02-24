@@ -13,7 +13,7 @@
             <h1>Tervetuloa pestinvalintakoneeseeen</h1>
             <p></p>
             <h2>Valitse ikäkautesi</h2>
-            <form class="age-form">
+            <form class="radio-button-form">
                 <label>
                     Samoaja
                     <input name="agegroup" type="radio" value="samoaja">
@@ -32,9 +32,35 @@
                 <input id="firstName" placeholder="Etunimi..." required>
                 <h2>Sukunimi</h2>
                 <input id="lastName" placeholder="Sukunimi..." required>
-                <h2>Pestitoive 1.</h2>
+                <h2>Pestitoiveet</h2>
+                <p>Valitse 10 mieluisinta pestitoivetta. Huomioi, että kyseessä on vain toiveet.</p>
                 <input id="searchBox" class="search" placeholder="Hae vaihtoehtoja..." />
                 <div id="options" class="search-options"></div>
+                <h2>Kuinka pitkiä vuoroja jaksat tehdä?</h2>
+                <div class="job-form">
+                    <label>
+                        <input name="jobtime" type="radio" value="4-5h">
+                        4-5h
+                    </label>
+                    <label>
+                        <input name="jobtime" type="radio" value="6h">
+                        6h
+                    </label>
+                    <label>
+                        <input name="jobtime" type="radio" value="8h">
+                        8h
+                    </label>
+                    <label>
+                        <input name="jobtime" type="radio" value="Ei väliä">
+                        Ei väliä
+                    </label>
+                    <label>
+                        <input name="jobtime" type="radio" value="Haluan tehdä enemmän kuin 24h koko leirin aikana">
+                        Haluan tehdä enemmän kuin 24h koko leirin aikana
+                    </label>
+                </div>
+                <h2>Jotain lisätietoja?</h2>
+                <textarea rows="3" id="details"></textarea>
                 <button id="submit-button" type="submit" class="submit-button">Lähetä pestivalinnat</button>
             </form>
             <script src="https://www.gstatic.com/firebasejs/12.9.0/firebase-app-compat.js"></script>

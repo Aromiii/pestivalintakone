@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const optionsContainer = document.querySelector(".search-options");
     const searchBox = document.querySelector(".search");
     const jobForm = document.querySelector(".job-form")
-    let selectedValue = null;
+    let selectedJobs = [];
 
     let jobs = {};
     try {
@@ -37,10 +37,23 @@ document.addEventListener("DOMContentLoaded", async () => {
             optionsContainer.appendChild(div);
 
             div.addEventListener("click", () => {
-                optionsContainer.querySelectorAll(".search-option").forEach(o => o.classList.remove("selected"));
+                const index = selectedJobs.indexOf(job.title);
+
+                if (index !== -1) {
+                    selectedJobs.splice(index, 1);
+                    div.classList.remove("selected");
+                    console.log("Removed job:", selectedJobs);
+                    return;
+                }
+
+                if (selectedJobs.length >= 10) {
+                    alert("Olet jo valinnut kymmenen pestitoivetta. Valitse jokin pestitoive pois, että voi valita kyseisen pesti toiveeksi.")
+                    return
+                }
+
+                selectedJobs.push(job.title);
                 div.classList.add("selected");
-                selectedValue = div.textContent;
-                console.log("Selected job:", selectedValue);
+                console.log("Selected job:", selectedJobs);
             });
         });
     }
@@ -48,6 +61,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const radios = document.querySelectorAll('input[name="agegroup"]');
     radios.forEach(radio => {
         radio.addEventListener("change", () => {
+            selectedJobs = [];
             loadJobs(radio.value);
         });
     });
@@ -61,37 +75,37 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     })
 
-    optionsContainer.childNodes.forEach(opt => {
-        opt.addEventListener("click", () => {
-
-            optionsContainer.childNodes.forEach(o => o.classList.remove("selected"));
-
-            opt.classList.add("selected");
-            selectedValue = opt.textContent;
-        });
-    });
-
     jobForm.addEventListener("submit", async (e) => {
-        e.preventDefault(); // prevent page reload
+        e.preventDefault();
 
-        if (selectedValue === null) {
-            alert("Valitse pestitoive 1.")
+        if (selectedJobs.length < 10) {
+            alert("Et ole vielä valinnut kymmentä pestitoivetta. Valitse kymmenen pestitoivetta ja uudelleenpalauta lomake.")
+            return
+        }
+
+        const ageGroup = document.querySelector('input[name="agegroup"]:checked')?.value
+        const jobTime = document.querySelector('input[name="jobtime"]:checked')?.value
+
+        if (ageGroup === undefined || jobTime === undefined) {
+            alert("Muista täyttää kaikki lomakkeen pakolliset kohdat, jotka huomaat tähdistä *")
             return
         }
 
         const data = {
             firstName: document.getElementById("firstName").value,
             lastName: document.getElementById("lastName").value,
-            ageGroup: document.querySelector('input[name="agegroup"]:checked')?.value,
-            selectedJob: selectedValue
+            ageGroup: ageGroup,
+            jobTime: jobTime,
+            selectedJobs: selectedJobs,
+            details: document.getElementById("details").value
         };
 
         try {
             await db.collection("jobSelections").add(data);
-            alert("Pestivalintasi lähetetty onnistuneesti!");
             jobForm.reset();
             optionsContainer.innerHTML = "";
-            selectedValue = null;
+            selectedJobs = [];
+            alert("Pestivalintasi lähetetty onnistuneesti!");
         } catch (error) {
             console.error("Error writing document: ", error);
             alert("Jotain meni pieleen, yritä uudelleen.");
