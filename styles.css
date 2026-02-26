@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('http://ilves26.fi/wp-content/uploads/2025/11/ilves26-hero-blank-3000px.svg');
+    background-image: url('ilvesapp.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

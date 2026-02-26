@@ -1,13 +1,14 @@
-document.addEventListener("DOMContentLoaded", async () => {
-    const firebaseConfig = {
-        apiKey: "AIzaSyCwjycLBjwLnaX7ukzcP8vGHa9TPL7jdRw",
-        authDomain: "pestinvalintakone.firebaseapp.com",
-        projectId: "pestinvalintakone",
-        storageBucket: "pestinvalintakone.firebasestorage.app",
-        messagingSenderId: "605582430584",
-        appId: "1:605582430584:web:e2b5ba11cbf9dfc359f88d"
-    };
+// Edit your own firebase config here https://firebase.google.com
+const firebaseConfig = {
+    apiKey: "AIzaSyCwjycLBjwLnaX7ukzcP8vGHa9TPL7jdRw",
+    authDomain: "pestinvalintakone.firebaseapp.com",
+    projectId: "pestinvalintakone",
+    storageBucket: "pestinvalintakone.firebasestorage.app",
+    messagingSenderId: "605582430584",
+    appId: "1:605582430584:web:e2b5ba11cbf9dfc359f88d"
+};
 
+document.addEventListener("DOMContentLoaded", async () => {
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
 
@@ -33,11 +34,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         jobs[group].forEach(job => {
             const div = document.createElement("div");
             div.classList.add("search-option");
-            div.innerHTML = `<strong>${job.title}</strong><br/><br/>${job.description}`;
+            div.innerHTML = `${job}`;
             optionsContainer.appendChild(div);
 
             div.addEventListener("click", () => {
-                const index = selectedJobs.indexOf(job.title);
+                const index = selectedJobs.indexOf(job);
 
                 if (index !== -1) {
                     selectedJobs.splice(index, 1);
@@ -51,7 +52,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     return
                 }
 
-                selectedJobs.push(job.title);
+                selectedJobs.push(job);
                 div.classList.add("selected");
                 console.log("Selected job:", selectedJobs);
             });
