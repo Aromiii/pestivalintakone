@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const optionsContainer = document.querySelector(".search-options");
     const searchBox = document.querySelector(".search");
-    const jobForm = document.querySelector(".job-form")
+    const jobForm = document.getElementById("job-form")
+    const jobOptions = document.getElementById("job-options")
+    const samoajaInfo = document.getElementById("samoajaInfo")
+    const adultInfo = document.getElementById("adultInfo")
     let selectedJobs = [];
 
     let jobs = {};
@@ -35,12 +38,13 @@ document.addEventListener("DOMContentLoaded", async () => {
                 if (index !== -1) {
                     selectedJobs.splice(index, 1);
                     div.classList.remove("selected");
-                    console.log("Removed job:", selectedJobs);
                     return;
                 }
 
-                if (selectedJobs.length >= 10) {
-                    alert("Olet jo valinnut kymmenen pestitoivetta. Valitse jokin pestitoive pois, että voi valita kyseisen pesti toiveeksi.")
+                const jobLength = getMaxJobSelectionLength(group)
+
+                if (selectedJobs.length >= jobLength) {
+                    alert(`Olet jo valinnut ${jobLength} pestitoivetta. Valitse jokin pestitoive pois, että voi valita kyseisen pesti toiveeksi.`)
                     return
                 }
 
@@ -50,11 +54,40 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     }
 
+    const getMaxJobSelectionLength= (ageGroup) => {
+        if (ageGroup === "samoaja") {
+            return 10
+        }
+
+        if (ageGroup === "vaeltaja" || ageGroup === "aikuinen") {
+            return 5
+        }
+
+        alert("Lomakkeen lataamisessa oli ongelma. Yritä avata lomake uudelleen. Jos ongelma ei ratkea, ota yhteyttä aaro.heroja@partio.fi")
+        return 6700
+    }
+
     const radios = document.querySelectorAll('input[name="agegroup"]');
     radios.forEach(radio => {
         radio.addEventListener("change", () => {
+            jobForm.classList.remove("hidden")
+
             selectedJobs = [];
             loadJobs(radio.value);
+
+            if (radio.value === "vaeltaja" || radio.value === "aikuinen") {
+                jobOptions.classList.add("hidden")
+                samoajaInfo.classList.add("hidden")
+                adultInfo.classList.remove("hidden")
+                return
+            }
+
+            if (radio.value === "samoaja") {
+                jobOptions.classList.remove("hidden")
+                adultInfo.classList.add("hidden")
+                samoajaInfo.classList.remove("hidden")
+                return;
+            }
         });
     });
 
@@ -70,16 +103,24 @@ document.addEventListener("DOMContentLoaded", async () => {
     jobForm.addEventListener("submit", async (e) => {
         e.preventDefault();
 
-        if (selectedJobs.length < 10) {
-            alert("Et ole vielä valinnut kymmentä pestitoivetta. Valitse kymmenen pestitoivetta ja uudelleenpalauta lomake.")
-            return
-        }
-
         const ageGroup = document.querySelector('input[name="agegroup"]:checked')?.value
         const jobTime = document.querySelector('input[name="jobtime"]:checked')?.value
 
-        if (ageGroup === undefined || jobTime === undefined) {
+        if (ageGroup === undefined) {
             alert("Muista täyttää kaikki lomakkeen pakolliset kohdat, jotka huomaat tähdistä *")
+            return
+        }
+
+        if (ageGroup === "samoaja" && jobTime === undefined) {
+            alert("Muista täyttää kaikki lomakkeen pakolliset kohdat, jotka huomaat tähdistä *")
+            return
+        }
+
+        const maxJobLength = getMaxJobSelectionLength(ageGroup)
+
+        console.log(ageGroup + maxJobLength)
+        if (selectedJobs.length < maxJobLength) {
+            alert(`Et ole vielä valinnut ${maxJobLength} pestitoivetta. Valitse kymmenen pestitoivetta ja uudelleenpalauta lomake.`)
             return
         }
 
@@ -87,17 +128,17 @@ document.addEventListener("DOMContentLoaded", async () => {
             firstName: document.getElementById("firstName").value,
             lastName: document.getElementById("lastName").value,
             ageGroup: ageGroup,
-            jobTime: jobTime,
+            jobTime: jobTime || "",
             selectedJobs: selectedJobs,
             details: document.getElementById("details").value
         };
 
         try {
             await db.collection("jobSelections").add(data);
+            alert("Pestivalintasi lähetetty onnistuneesti!");
             jobForm.reset();
             optionsContainer.innerHTML = "";
             selectedJobs = [];
-            alert("Pestivalintasi lähetetty onnistuneesti!");
         } catch (error) {
             console.error("Error writing document: ", error);
             alert("Jotain meni pieleen, yritä uudelleen.");

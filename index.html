@@ -28,17 +28,18 @@
                     <input name="agegroup" type="radio" value="aikuinen">
                 </label>
             </form>
-            <form id="job-form" class="job-form" hidden="hidden">
+            <form id="job-form" class="hidden job-form">
                 <h2>Etunimi</h2>
                 <input id="firstName" placeholder="Etunimi..." required>
                 <h2>Sukunimi</h2>
                 <input id="lastName" placeholder="Sukunimi..." required>
                 <h2>Pestitoiveet</h2>
-                <p>Valitse 10 mieluisinta pestitoivetta. Huomioi, että kyseessä on vain toiveet.</p>
+                <p id="samoajaInfo" class="hidden">Valitse 10 mieluisinta pestitoivetta. Huomioi, että kyseessä on vain toiveet.</p>
+                <p id="adultInfo" class="hidden">Valitse 5 mieluisinta pestitoivetta. Huomioi, että kyseessä on vain toiveet.</p>
                 <input id="searchBox" class="search" placeholder="Hae vaihtoehtoja..." />
                 <div id="options" class="search-options"></div>
-                <h2>Kuinka pitkiä vuoroja jaksat tehdä?</h2>
-                <div class="job-form">
+                <div id="job-options" class="hidden job-form" hidden="hidden">
+                    <h2>Kuinka pitkiä vuoroja jaksat tehdä?</h2>
                     <label>
                         <input name="jobtime" type="radio" value="4-5h">
                         4-5h

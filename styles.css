@@ -115,3 +115,7 @@ h2 {
     background-color: #80884f;
     border: 1px solid #80884f;
 }
+
+.hidden {
+    display: none;
+}
