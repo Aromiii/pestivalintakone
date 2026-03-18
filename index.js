@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const optionsContainer = document.querySelector(".search-options");
     const searchBox = document.querySelector(".search");
     const jobForm = document.getElementById("job-form")
+    const ageGroupForm = document.getElementById("ageGroupForm")
     const jobOptions = document.getElementById("job-options")
     const hasJobCheckbox = document.getElementById("hasJobCheckbox")
     const samoajaInfo = document.getElementById("samoajaInfo")
@@ -172,9 +173,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             await db.collection("jobSelections").add(data);
             alert("Pestivalintasi lähetetty onnistuneesti!");
             jobForm.reset();
+            ageGroupForm.reset()
             optionsContainer.innerHTML = "";
             selectedJobs = [];
             hasJobCheckboxChecked = false
+
+            jobForm.classList.add("hidden")
+            searchBox.classList.remove("hidden")
+            optionsContainer.classList.remove("hidden")
         } catch (error) {
             console.error("Error writing document: ", error);
             alert("Jotain meni pieleen, yritä uudelleen.");
